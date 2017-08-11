@@ -1,0 +1,9 @@
+  <div id="bloc" class="col-md-4" >
+    <img [src]="post.photos[0].original_size.url"
+      (mouseover) ="over()"
+      (mouseout)="out()"
+      (click)="onClick()"
+      [@imageState]="imgstate"
+      [@imgState]="imgclick">
+    <div id="baniere" [@baniereState]="bstate">{{post.summary}}</div> <!-- @banniereState va chercher dans trigger  -->
+  </div>

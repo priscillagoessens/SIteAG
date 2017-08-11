@@ -1,0 +1,8 @@
+<app-header></app-header>
+<h2 class="text-center">Artwork</h2>
+<div class="container">
+  <div class="row">
+    <img class="center-block" src="/assets/Spinner.gif" *ngIf="loading">
+      <app-galeryimage *ngFor="let post of posts" [post]="post"></app-galeryimage>
+  </div>
+</div>

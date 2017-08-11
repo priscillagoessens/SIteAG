@@ -1,0 +1,15 @@
+h2{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: "Marcellus SC";
+}
+#profile{
+  float:left;
+  width: 480px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#profile2{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
